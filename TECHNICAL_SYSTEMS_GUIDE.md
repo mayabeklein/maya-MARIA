@@ -54,16 +54,16 @@ Here is a detailed look at each component of the technology stack.
     3.  **Set Privacy:** Configure all premium videos to "Hide from Vimeo" and allow embedding only on specific domains.
 -   **Cost:** ~₪250/month.
 
-### 3.3. Payment Processing: **Meshulam**
+### 3.3. Payment Processing & Invoicing: **iCount**
 
--   **Role:** Securely processes credit card payments from customers.
--   **Why Meshulam:** It is a leading Israeli payment gateway, ensuring high acceptance rates for local credit cards and compliance with Israeli regulations. It integrates well with other systems via Zapier.
+-   **Role:** Processes credit card payments AND automatically generates invoices (חשבונית מס/קבלה).
+-   **Why iCount:** You already have 13+ active payment pages processing 3,406+ sales. It handles payments, invoicing, accounting, and recurring billing all in one system. No need for a separate payment processor.
 -   **Key Setup Tasks:**
-    1.  **Create Business Account:** Register and get approved.
-    2.  **Integrate with Smoove/Zapier:** Connect Meshulam to trigger automations upon successful payment.
-    3.  **Configure Products:** Set up each of the 12 digital products with its price.
-    4.  **Test Transactions:** Run several test payments to ensure the entire flow works.
--   **Cost:** 2.9% + ₪1.50 per transaction (no monthly fee).
+    1.  **Verify Webhook/API:** Check if iCount can send webhooks to Zapier when a payment is successful.
+    2.  **Create New Payment Pages:** Set up pages for the new digital products (Recipe Collection ₪97, etc.).
+    3.  **Test Zapier Integration:** Connect iCount to Zapier to trigger product delivery automations.
+    4.  **Document Payment URLs:** Save the unique payment links for each product to embed in Smoove landing pages.
+-   **Cost:** ₪99-299/month (already paying) + 2.5-3% transaction fees.
 
 ### 3.4. Design: **Canva Pro**
 
@@ -146,14 +146,14 @@ This table summarizes the technology costs for the first 90 days.
 |---|---|---|---|---|---|
 | **Smoove** | Email & Pages | 500 | 500 | 600 | 1,600 |
 | **Vimeo Pro** | Video Hosting | 250 | 250 | 250 | 750 |
-| **Meshulam** | Payments (Fees) | 1,450 | 4,350 | 8,700 | 14,500 |
+| **iCount** | Payments & Invoicing | 200 | 200 | 200 | 600 |
 | **Canva Pro** | Design | 50 | 50 | 50 | 150 |
 | **Zoom Pro** | Webinars | 60 | 60 | 60 | 180 |
 | **Zapier** | Automation | 100 | 100 | 100 | 300 |
 | **Meta Ads** | Advertising | 6,750 | 8,000 | 10,000 | 24,750 |
-| **Total** | | **₪9,160** | **₪13,310** | **₪19,760** | **₪42,230** |
+| **Total** | | **₪7,910** | **₪9,160** | **₪11,260** | **₪28,330** |
 
-*Note: Meshulam fees are estimated based on projected revenue (2.9% of sales). Ad spend is planned to scale with revenue growth.*
+*Note: iCount fees are already included in the monthly subscription. Transaction fees (2.5-3%) are deducted automatically. Ad spend is planned to scale with revenue growth.*
 
 ---
 
